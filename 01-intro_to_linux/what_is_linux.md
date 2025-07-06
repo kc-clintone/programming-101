@@ -84,7 +84,7 @@ Learning Linux unlocks a deeper understanding of how your code runs in the real 
 
 Check out my detailed **Getting started with linux** on Medium, where we dive deep into liux. I'll walk you through installation, navigation, setting up your new linux environment and more:
 
-👉 [**Read the Full Guide on Medium**](https://medium.com/your-linux-guide-url)
+👉 [**Read the Full Guide on Medium**](https://medium.com/@kc_clintone/getting-started-with-linux-a-journey-into-open-source-b5a133b8c40b)
 
 ---
 
