@@ -180,6 +180,6 @@ Each command here demonstrates file creation, viewing, copying, renaming, and de
 
 Explore more Linux file tips and tricks in my full Medium post:
 
-👉 [**View & Manage Files Like a Pro on Medium**](https://medium.com/your-linux-files-guide)
+👉 [**View & Manage Files Like a Pro on Medium**]([https://medium.com/your-linux-files-guide](https://medium.com/@kc_clintone/file-management-in-linux-navigating-organizing-and-securing-your-files-0156c017c55c)
 
 ---
