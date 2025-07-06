@@ -1,0 +1,19 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# Bash history
+.bash_history
+
+# Editor and system files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
