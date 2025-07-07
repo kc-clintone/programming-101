@@ -1,4 +1,4 @@
-# 🐚 Lesson: What Is a Bash Script?
+# 🐚 What Is a Bash Script?
 
 ## 🧠 Learning Objectives:
 
