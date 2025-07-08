@@ -1,0 +1,154 @@
+site_name: Programming 101
+site_url: https://clintoo.github.io/programming-101
+repo_url: https://github.com/clintoo/programming-101
+repo_name: programming-101
+
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/console
+
+plugins:
+  - search
+  - pdf-export:
+      enabled_if_env: ENABLE_PDF
+
+extra:
+  social:
+    - icon: material/download
+      link: /assets/pdf/index.pdf
+      name: Download Full Course
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+nav:
+  - 🏠 Home: index.md
+  - ⚙️ Setup: setup.md
+  - 📘 Syllabus: syllabus.md
+  - 📚 Lessons:
+      - Intro to Linux:
+          - What is Linux?: lessons/01-intro_to_linux/what_is_linux.md
+          - Linux File System: lessons/01-intro_to_linux/linux_file_system.md
+          - Terminals and Shells: lessons/01-intro_to_linux/terminals_and_shells.md
+          - File System Interaction: lessons/01-intro_to_linux/file_system_interaction.md
+      - Bash Basics:
+          - What is Bash Scripting?: lessons/02-bash_basics/what_is_bash_scripting.md
+          - Your First Script: lessons/02-bash_basics/your_first_script.md
+          - Permissions and Shebang: lessons/02-bash_basics/permissions_and_shebang.md
+          - Comments and Output: lessons/02-bash_basics/comments_and_output.md
+      - Control Flow:
+          - Variables: lessons/03-control_flow/variables.md
+          - User Input: lessons/03-control_flow/user_input.md
+          - Character Manipulation: lessons/03-control_flow/charachter_manupilation.md
+          - Operations: lessons/03-control_flow/operations.md
+      - Conditionals:
+          - What are Conditionals?: lessons/04-conditionalss/what_are_conditionals.md
+          - Basic Comparisons: lessons/04-conditionalss/basic_comparisons.md
+          - Nested Conditionals: lessons/04-conditionalss/nested_conditionals.md
+          - Case Statements: lessons/04-conditionalss/case_statements.md
+      - Loops and Iteration:
+          - For Loops: lessons/05-loops_and_iteration/for_loops.md
+          - While Loops: lessons/05-loops_and_iteration/while_loops.md
+          - Until Loops: lessons/05-loops_and_iteration/until_loops.md
+          - Breaking and Continuing: lessons/05-loops_and_iteration/breaking_and_continuing.md
+      - File and Directories:
+          - Reading Files in Bash: lessons/06-file_and_directories/reading_files_in_bash.md
+          - IO Redirection: lessons/06-file_and_directories/IO_redirection.md
+          - Globbing in Bash: lessons/06-file_and_directories/globbing_in_bash.md
+          - Script Automation & File Management: lessons/06-file_and_directories/script_automation_and_file_management.md
+      - Functions:
+          - Defining and Calling Functions: lessons/07-functions/defining_and_calling_functions.md
+          - Modular Functions: lessons/07-functions/modular_functions.md
+          - Local vs Global Variables: lessons/07-functions/local_vs_global_variable.md
+          - Passing Arguments and Return Values: lessons/07-functions/passing_arguments_and_returning_values.md
+      - Advanced:
+          - Environment Variables: lessons/08-advance/environment_variables.md
+          - Exit Status and Error Handling: lessons/08-advance/exit_status_and_error_handling.md
+          - Debugging Bash Scripts: lessons/08-advance/debugging_bash_scripts.md
+          - Final Project: lessons/08-advance/project.md
+  - 🧪 Exercises:
+      - Intro to Linux:
+          - What is Linux?: exercises/01-intro_to_linux/what_is_linux_exercises.md
+          - Linux File System: exercises/01-intro_to_linux/linux_file_system_exercises.md
+          - Terminals and Shells: exercises/01-intro_to_linux/terminals_and_shells_exercises.md
+          - File System Interaction: exercises/01-intro_to_linux/file_system_interaction_exercises.md
+      - Bash Basics:
+          - What is Bash Scripting?: exercises/02-bash_basics/what_is_bash_scripting_exercises.md
+          - Your First Script: exercises/02-bash_basics/your_first_script_exercises.md
+          - Permissions and Shebang: exercises/02-bash_basics/permissions_and_shebang_exercises.md
+          - Comments and Output: exercises/02-bash_basics/comments_and_output_exercises.md
+      - Control Flow:
+          - Variables: exercises/03-control_flow/variables_exercises.md
+          - User Input: exercises/03-control_flow/user_input_exercises.md
+          - Character Manipulation: exercises/03-control_flow/charachter_manupilation_exercises.md
+          - Operations: exercises/03-control_flow/operations_exercises.md
+      - Conditionals:
+          - What are Conditionals?: exercises/04-conditionalss/what_are_conditionals_exercises.md
+          - Basic Comparisons: exercises/04-conditionalss/basic_comparisons_exercises.md
+          - Nested Conditionals: exercises/04-conditionalss/nested_conditionals_exercises.md
+          - Case Statements: exercises/04-conditionalss/case_statements_exercises.md
+      - Loops and Iteration:
+          - For Loops: exercises/05-loops_and_iteration/for_loops_exercises.md
+          - While Loops: exercises/05-loops_and_iteration/while_loops_exercises.md
+          - Until Loops: exercises/05-loops_and_iteration/until_loops_exercises.md
+          - Breaking and Continuing: exercises/05-loops_and_iteration/breaking_and_continuing_exercises.md
+      - File and Directories:
+          - Reading Files in Bash: exercises/06-file_and_directories/reading_files_in_bash_exercises.md
+          - IO Redirection: exercises/06-file_and_directories/IO_redirection_exercises.md
+          - Globbing in Bash: exercises/06-file_and_directories/globbing_in_bash_exercises.md
+          - Script Automation & File Management: exercises/06-file_and_directories/script_automation_and_file_management_exercises.md
+      - Functions:
+          - Defining and Calling Functions: exercises/07-functions/defining_and_calling_functions_exercises.md
+          - Modular Functions: exercises/07-functions/modular_functions_exercises.md
+          - Local vs Global Variables: exercises/07-functions/local_vs_global_variable_exercises.md
+          - Passing Arguments and Return Values: exercises/07-functions/passing_arguments_and_returning_values_exercises.md
+      - Advanced:
+          - Environment Variables: exercises/08-advance/environment_variables_exercises.md
+          - Exit Status and Error Handling: exercises/08-advance/exit_status_and_error_handling_exercises.md
+          - Debugging Bash Scripts: exercises/08-advance/debugging_bash_scripts_exercises.md
+          - Final Project: exercises/08-advance/project_exercises.md
+  - 📝 Quizzes:
+      - README: quizzes/README.md
+      - Quiz 01: quizzes/quiz_01.md
+      - Quiz 02: quizzes/quiz_02.md
+      - Quiz 03: quizzes/quiz_03.md
+      - Quiz 04: quizzes/quiz_04.md
+      - Quiz 05: quizzes/quiz_05.md
+      - Quiz 06: quizzes/quiz_06.md
+      - Quiz 07: quizzes/quiz_07.md
+      - Quiz 08: quizzes/quiz_08.md
+      - Quiz 09: quizzes/quiz_09.md
+      - Quiz 10: quizzes/quiz_10.md
+      - Quiz 11: quizzes/quiz_11.md
+      - Quiz 12: quizzes/quiz_12.md
+      - Quiz 13: quizzes/quiz_13.md
+      - Quiz 14: quizzes/quiz_14.md
+      - Quiz 15: quizzes/quiz_15.md
+      - Quiz 16: quizzes/quiz_16.md
+      - Quiz 17: quizzes/quiz_17.md
+      - Quiz 18: quizzes/quiz_18.md
+      - Quiz 19: quizzes/quiz_19.md
+      - Quiz 20: quizzes/quiz_20.md
+      - Quiz 21: quizzes/quiz_21.md
+      - Quiz 22: quizzes/quiz_22.md
+      - Quiz 23: quizzes/quiz_23.md
+      - Quiz 24: quizzes/quiz_24.md
+      - Quiz 25: quizzes/quiz_25.md
+      - Quiz 26: quizzes/quiz_26.md
+      - Quiz 27: quizzes/quiz_27.md
+  - 📎 Resources: resources.md
+  - 🙌 Contributing: CONTRIBUTING.md
+  - 📜 Code of Conduct: CODE_OF_CONDUCT.md

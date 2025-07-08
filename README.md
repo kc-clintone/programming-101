@@ -1,115 +1,109 @@
-# Programming 101
 
-Welcome to **Programming 101**!  
-This repository is a beginner-friendly, open-source guide to Bash scripting and the Linux operating system.
+# 🧑‍💻 Programming 101: Bash & Linux Scripting for Beginners
+
+![Course Banner](assets/images/banner.png)
+
+Welcome to **Programming 101** – your open-source gateway to learning Bash scripting, mastering the Linux command line, and understanding how computers interact under the hood.
+
+Whether you're an absolute beginner or just curious about the command line, you're in the right place!
+
+---
 
 ## 🚀 What You’ll Learn
 
-- Introduction to the Linux shell and OS basics
-- Essential Bash commands and navigation
-- Creating and running Bash scripts
-- Using variables, conditionals, and loops
-- File and directory operations
-- Functions, script organization, and best practices
-- Debugging, automation, and more!
+- 🐧 Introduction to Linux OS and terminal basics
+- 🧭 Navigating the file system with Bash commands
+- ✍️ Writing, running, and debugging Bash scripts
+- 🔁 Using variables, conditionals, and loops
+- 📂 Managing files, directories, and permissions
+- ⚙️ Automating tasks with functions and modular scripts
+- 🛠️ Script debugging and environment management
 
-## 📂 Repository Structure
+---
 
-```
-programmong-101/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── .gitignore
-├── syllabus.md
-├── setup.md
-├── lessons/
-│   ├── 01-intro-to-linux/
-│   ├── 02-bash-basics/
-│   ├── 03-control-flow/
-│   ├── 04-loops/
-│   ├── 05-functions/
-│   ├── 06-file-io/
-│   ├── 07-projects/
-│   └── ...
-├── exercises/
-│   ├── 01-variables.sh
-│   ├── 02-conditionals.sh
-│   └── ...
-├── quizzes/
-│   ├── quiz-01.md
-│   └── quiz-02.md
-├── assets/
-│   ├── images/
-│   ├── diagrams/
-│   └── pdfs/
-├── scripts/
-│   └── install.sh (optional setup helper)
-└── resources.md
-```
+## 🧭 Course Map (Repository Structure)
 
-- **lessons/** – Step-by-step guides and structured modules  
-- **exercises/** – Practice problems to reinforce your skills  
-- **quizzes/** – Short quizzes to check your understanding  
-- **assets/** – Images, diagrams, and PDFs for reference  
-- **scripts/** – Helper scripts (such as setup/install)  
-- **syllabus.md** – Complete course outline  
-- **setup.md** – Environment setup instructions  
-- **resources.md** – Additional recommended resources  
-- **CONTRIBUTING.md** – Contribution guidelines  
-- **CODE_OF_CONDUCT.md** – Community standards  
-- **LICENSE** – Open source license  
-- **README.md** – This file
+```bash
+programming-101/
+├── README.md               # This file
+├── syllabus.md             # Full course outline
+├── setup.md                # Setup instructions (Linux, Mac, Windows)
+├── lessons/                # Core lessons per module
+├── exercises/              # Practice exercises per topic
+├── quizzes/                # Review quizzes
+├── scripts/                # Setup & helper scripts
+├── assets/                 # Images, diagrams, PDFs
+├── resources.md            # Recommended readings & links
+├── CONTRIBUTING.md         # How to contribute
+├── CODE_OF_CONDUCT.md      # Community standards
+└── LICENSE                 # License (MIT)
+````
+
+🧠 **Everything you need to go from beginner to confident Linux scripter!**
+
+---
 
 ## 📝 Getting Started
 
-1. **Clone this repository:**
+1. **Clone the repository**
+
    ```bash
    git clone https://github.com/kc-clintone/programming-101.git
    cd programming-101
    ```
 
-2. **Set up your environment:**  
-   Follow the instructions in [setup.md](setup.md) for Windows, Mac, or Linux.
+2. **Set up your environment**
+   Follow [setup.md](setup.md) to configure your terminal and tools.
 
-3. **Review the course outline:**  
-   Open [syllabus.md](syllabus.md) to see the learning path and modules.
+3. **Explore the syllabus**
+   Open [syllabus.md](syllabus.md) to see the full course outline.
 
-4. **Start learning:**  
-   - Read the lessons in `lessons/`.
-   - Try the scripts in each module’s `examples/` folder.
-   - Practice with `exercises/` after each module.
-   - Test your knowledge with `quizzes/`.
+4. **Start learning**
+   Begin with the first lesson in [`lessons/01-intro_to_linux/`](docs/lessons/01-intro_to_linux/what_is_linux.md) and follow along with exercises and quizzes.
+
+---
 
 ## 💡 Who Is This For?
 
-- Complete beginners to programming
-- Anyone curious about Linux or the command line
-- Students seeking practical scripting and automation skills
+🎓 **You**, if you’re:
 
-No prior programming experience is required!
+* A complete programming beginner
+* Curious about Linux or terminal-based systems
+* Looking to learn scripting for automation or DevOps
+* Teaching others or coaching a beginner group
 
-## 🤝 Contributing
-
-We love contributions from the community!  
-- See [CONTRIBUTING.md](CONTRIBUTING.md) for how to suggest content, report bugs, or submit pull requests.
-- Please read our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to keep our community welcoming for everyone.
-
-## 📚 Resources
-
-- See [resources.md](resources.md) for more recommended readings and links.
-- [GNU Bash Manual](https://www.gnu.org/software/bash/manual/)
-- [Linux Command](https://linuxcommand.org/)
-- [Bash Scripting Tutorial](https://ryanstutorials.net/bash-scripting-tutorial/)
-
-## 📧 Contact
-
-Questions or feedback?  
-Open an issue or join the Discussions section in this repo.
+🧯 No prior coding experience required!
 
 ---
 
-Happy Learning & Scripting! 🚀
+## 🤝 How to Contribute
+
+We 💖 contributions!
+
+* Read [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues or suggest lessons.
+* Follow our [CODE\_OF\_CONDUCT.md](CODE_OF_CONDUCT.md) to keep this space welcoming.
 
 ---
+
+## 📚 Additional Resources
+
+* [LinuxCommand.org](https://linuxcommand.org/)
+* [Bash Manual (GNU)](https://www.gnu.org/software/bash/manual/)
+* [Bash Scripting Tutorial (Ryan’s Tutorials)](https://ryanstutorials.net/bash-scripting-tutorial/)
+* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+
+More links in [resources.md](resources.md) →
+
+---
+
+## 📬 Contact & Feedback
+
+Questions? Suggestions?
+Open an [issue](https://github.com/kc-clintone/programming-101/issues) or join the repo’s **Discussions** tab.
+
+---
+
+> *"The best way to learn is by doing."* – Richard Feynman
+
+## Happy hacking! 🧑‍💻💥
+
