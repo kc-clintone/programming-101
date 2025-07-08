@@ -11,7 +11,7 @@ sleep 3
 
 # Clean or create docs folder
 rm -rf docs/
-mkdir -p docs/lessons docs/exercises docs/quizzes
+mkdir -p docs/lessons docs/exercises docs/quizzes docs/assets
 
 # Copy root files
 cp README.md docs/index.md
@@ -25,9 +25,11 @@ cp CODE_OF_CONDUCT.md docs/
 cp -r lessons/* docs/lessons/
 cp -r exercises/* docs/exercises/
 cp -r quizzes/* docs/quizzes/
+cp -r assets/* docs/assets
 
 echo "✅ Docs ready in /docs. You can now run 'mkdocs serve' or 'mkdocs gh-deploy'."
 
 # Build site with PDF generation enabled
 echo "Building documentation with PDF export enabled..."
+
 ENABLE_PDF=1 mkdocs build

@@ -17,8 +17,9 @@ theme:
 
 plugins:
   - search
+  - awesome-pages
   - pdf-export:
-      enabled_if_env: ENABLE_PDF
+        enabled_if_env: ENABLE_PDF
 
 extra:
   social:

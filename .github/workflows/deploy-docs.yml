@@ -11,6 +11,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,6 +29,11 @@ jobs:
         run: |
           chmod +x scripts/build-docs.sh
           ./scripts/build-docs.sh
+
+      - name: Copy PDF to public site
+        run: |
+          mkdir -p site/pdf
+          cp site/pdf/combined.pdf site/pdf/index.pdf
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force

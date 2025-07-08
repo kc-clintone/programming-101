@@ -101,6 +101,8 @@ More links in [resources.md](resources.md) →
 Questions? Suggestions?
 Open an [issue](https://github.com/kc-clintone/programming-101/issues) or join the repo’s **Discussions** tab.
 
+📄 [Download the Full Course as PDF](assets/pdf/index.pdf)
+
 ---
 
 > *"The best way to learn is by doing."* – Richard Feynman
