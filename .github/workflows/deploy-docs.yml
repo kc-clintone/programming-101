@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material mkdocs-pdf-export-plugin
+          pip install mkdocs mkdocs-material mkdocs-pdf-export-plugin awesome-pages
 
       - name: Build Docs
         run: |
