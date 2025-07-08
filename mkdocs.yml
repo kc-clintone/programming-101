@@ -19,14 +19,13 @@ plugins:
   - search
   - pdf-export:
         enabled_if_env: ENABLE_PDF
-        combined: true
-        output_path: assets/pdf/programming-101.pdf
+        output_dir: pdf
 
 extra:
   social:
     - icon: material/download
       link: /assets/pdf/programming-101.pdf
-      name: Download Full Course in PDF
+      name: Download PDF
 
 markdown_extensions:
   - admonition
