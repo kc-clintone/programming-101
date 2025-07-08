@@ -31,7 +31,7 @@ jobs:
           chmod +x scripts/build-docs.sh
           ENABLE_PDF=1 ./scripts/build-docs.sh
           
-      - name: Verify PDF was generated
+      - name: Check if PDF was generated
         run: |
           if [ ! -f site/assets/pdf/programming-101.pdf ]; then
             echo "❌ PDF not generated!"
