@@ -29,11 +29,15 @@ jobs:
         run: |
           chmod +x scripts/build-docs.sh
           ENABLE_PDF=1 ./scripts/build-docs.sh
-
-      - name: Copy PDF to public site
+          
+      - name: Verify PDF was generated
         run: |
-          mkdir -p site/assets/pdf
-          cp site/assets/pdf/programming-101.pdf site/assets/pdf/programming-101.pdf
+          if [ ! -f site/assets/pdf/programming-101.pdf ]; then
+            echo "❌ PDF not generated!"
+            exit 1
+          else
+            echo "✅ PDF generated successfully."
+          fi
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
