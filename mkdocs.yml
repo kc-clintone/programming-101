@@ -19,7 +19,7 @@ plugins:
   - search
   - pdf-export:
         enabled_if_env: ENABLE_PDF
-        output_dir: pdf
+        output_path: assets/pdf/programming-101.pdf
 
 extra:
   social:
