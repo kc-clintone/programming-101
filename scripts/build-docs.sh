@@ -3,7 +3,7 @@
 set -e
 
 # Ensure mkdocs and required plugins are installed
-pip install mkdocs mkdocs-material mkdocs-pdf-export-plugin awesome-pages
+pip install mkdocs mkdocs-material mkdocs-pdf-export-plugin
 
 echo "🔧 Building documentation structure..."
 
