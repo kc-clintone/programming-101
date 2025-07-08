@@ -28,12 +28,12 @@ jobs:
       - name: Build Docs
         run: |
           chmod +x scripts/build-docs.sh
-          ENABLE_PDF=0 ./scripts/build-docs.sh
+          ENABLE_PDF=1 ./scripts/build-docs.sh
 
       - name: Copy PDF to public site
         run: |
           mkdir -p site/assets/pdf
-          cp site/pdf/programming-101.pdf site/assets/pdf/programming-101.pdf
+          cp site/assets/pdf/programming-101.pdf site/assets/pdf/programming-101.pdf
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
