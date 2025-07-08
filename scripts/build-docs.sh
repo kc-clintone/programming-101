@@ -25,7 +25,7 @@ cp CODE_OF_CONDUCT.md docs/
 cp -r lessons/* docs/lessons/
 cp -r exercises/* docs/exercises/
 cp -r quizzes/* docs/quizzes/
-cp -r assets/* docs/assets
+cp -r assets/* docs/assets/
 
 echo "✅ Docs ready in /docs. You can now run 'mkdocs serve' or 'mkdocs gh-deploy'."
 
