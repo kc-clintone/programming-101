@@ -33,7 +33,7 @@ jobs:
       - name: Copy PDF to public site
         run: |
           mkdir -p site/assets/pdf
-          cp site/assets/pdf/programming-101.pdf site/assets/pdf/programming-101.pdf
+          cp site/pdf/programming-101.pdf site/assets/pdf/programming-101.pdf
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
