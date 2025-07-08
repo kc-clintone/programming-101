@@ -32,8 +32,8 @@ jobs:
 
       - name: Copy PDF to public site
         run: |
-          mkdir -p site/pdf
-          cp site/pdf/index.pdf site/pdf/index.pdf
+          mkdir -p site/assets/pdf
+          cp site/pdf/combined.pdf site/assets/pdf/index.pdf
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
