@@ -28,7 +28,7 @@ jobs:
       - name: Build Docs
         run: |
           chmod +x scripts/build-docs.sh
-          ./scripts/build-docs.sh
+          ENABLE_PDF=1 ./scripts/build-docs.sh
 
       - name: Copy PDF to public site
         run: |
