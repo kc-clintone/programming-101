@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install mkdocs mkdocs-material mkdocs-pdf-export-plugin
+          pip install git+https://github.com/zhaoterryy/mkdocs-pdf-export-plugin.git@master
 
       - name: Build Docs
         run: |
