@@ -24,21 +24,28 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install mkdocs mkdocs-material mkdocs-pdf-export-plugin
+          pip install mkdocs mkdocs-material
           pip install git+https://github.com/zhaoterryy/mkdocs-pdf-export-plugin.git@master
 
-      - name: Build Docs
+      - name: Build Docs with PDF Export
+        env:
+          ENABLE_PDF: '1'
         run: |
           chmod +x scripts/build-docs.sh
-          ENABLE_PDF=1 ./scripts/build-docs.sh
-          
-      - name: Check if PDF was generated
+          ./scripts/build-docs.sh
+
+      - name: Move PDF to assets/pdf with custom name
+        run: |
+          mkdir -p site/assets/pdf
+          mv site/pdf/*.pdf site/assets/pdf/programming-101.pdf || (echo "❌ PDF not found!" && exit 1)
+
+      - name: Verify PDF exists
         run: |
           if [ ! -f site/assets/pdf/programming-101.pdf ]; then
-            echo "❌ PDF not generated!"
+            echo "❌ PDF generation failed!"
             exit 1
           else
-            echo "✅ PDF generated successfully."
+            echo "✅ PDF generated successfully at site/assets/pdf/programming-101.pdf"
           fi
 
       - name: Deploy to GitHub Pages
