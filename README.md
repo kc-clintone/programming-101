@@ -32,7 +32,7 @@ Whether you're an absolute beginner or just curious about the command line, you'
 
 ## 🧭 Course Map (Repository Structure)
 
-```bash
+```markdown
 programming-101/
 ├── README.md
 ├── syllabus.md
@@ -46,7 +46,7 @@ programming-101/
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 └── LICENSE
-````
+```
 
 🧠 **Everything you need to go from beginner to confident Linux scripter!**
 
