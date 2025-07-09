@@ -1,4 +1,3 @@
-
 # 🧑‍💻 Programming 101: Bash & Linux Scripting for Beginners
 
 ![Course Banner](assets/images/banner.png)
@@ -11,13 +10,13 @@ Whether you're an absolute beginner or just curious about the command line, you'
 
 ## 🚀 What You’ll Learn
 
-- 🐧 Introduction to Linux OS and terminal basics
-- 🧭 Navigating the file system with Bash commands
-- ✍️ Writing, running, and debugging Bash scripts
-- 🔁 Using variables, conditionals, and loops
-- 📂 Managing files, directories, and permissions
-- ⚙️ Automating tasks with functions and modular scripts
-- 🛠️ Script debugging and environment management
+- 🐧 Introduction to Linux OS and terminal basics  
+- 🧭 Navigating the file system with Bash commands  
+- ✍️ Writing, running, and debugging Bash scripts  
+- 🔁 Using variables, conditionals, and loops  
+- 📂 Managing files, directories, and permissions  
+- ⚙️ Automating tasks with functions and modular scripts  
+- 🛠️ Script debugging and environment management  
 
 ---
 
@@ -59,7 +58,7 @@ programming-101/
    Open [syllabus.md](syllabus.md) to see the full course outline.
 
 4. **Start learning**
-   Begin with the first lesson in [`lessons/01-intro_to_linux/`](docs/lessons/01-intro_to_linux/what_is_linux.md) and follow along with exercises and quizzes.
+   Begin with the first lesson in [`lessons/01-intro_to_linux/`](lessons/01-intro_to_linux/what_is_linux.md) and follow along with exercises and quizzes.
 
 ---
 
@@ -101,11 +100,10 @@ More links in [resources.md](resources.md) →
 Questions? Suggestions?
 Open an [issue](https://github.com/kc-clintone/programming-101/issues) or join the repo’s **Discussions** tab.
 
-📄 [Download the Full Course as PDF](assets/pdf/index.pdf)
+📄 [Download the Full Course as PDF](assets/pdf/programming-101.pdf)
 
 ---
 
 > *"The best way to learn is by doing."* – Richard Feynman
 
 ## Happy hacking! 🧑‍💻💥
-
