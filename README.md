@@ -1,6 +1,16 @@
 # 🧑‍💻 Programming 101: Bash & Linux Scripting for Beginners
 
-![Course Banner](assets/images/banner.png)
+<p align="center">
+  <img src="assets/images/banner.png" alt="Course Banner" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/kc-clintone/programming-101" style="margin: 5px;" />
+  <img src="https://img.shields.io/github/last-commit/kc-clintone/programming-101" style="margin: 5px;" />
+  <img src="https://img.shields.io/github/issues/kc-clintone/programming-101" style="margin: 5px;" />
+  <img src="https://img.shields.io/github/issues-pr/kc-clintone/programming-101" style="margin: 5px;" />
+  <img src="https://img.shields.io/github/license/kc-clintone/programming-101" style="margin: 5px;" />
+</p>
 
 Welcome to **Programming 101** – your open-source gateway to learning Bash scripting, mastering the Linux command line, and understanding how computers interact under the hood.
 
