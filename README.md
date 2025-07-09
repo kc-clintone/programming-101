@@ -25,18 +25,18 @@ Whether you're an absolute beginner or just curious about the command line, you'
 
 ```bash
 programming-101/
-├── README.md               # This file
-├── syllabus.md             # Full course outline
-├── setup.md                # Setup instructions (Linux, Mac, Windows)
-├── lessons/                # Core lessons per module
-├── exercises/              # Practice exercises per topic
-├── quizzes/                # Review quizzes
-├── scripts/                # Setup & helper scripts
-├── assets/                 # Images, diagrams, PDFs
-├── resources.md            # Recommended readings & links
-├── CONTRIBUTING.md         # How to contribute
-├── CODE_OF_CONDUCT.md      # Community standards
-└── LICENSE                 # License (MIT)
+├── README.md
+├── syllabus.md
+├── setup.md
+├── lessons/
+├── exercises/
+├── quizzes/
+├── scripts/
+├── assets/
+├── resources.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+└── LICENSE
 ````
 
 🧠 **Everything you need to go from beginner to confident Linux scripter!**
