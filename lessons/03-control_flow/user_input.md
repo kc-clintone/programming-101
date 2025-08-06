@@ -154,26 +154,3 @@ echo -e "\nWelcome, $name! You're $age years old."
 ```
 
 ---
-
-## 🎯 Student Challenge
-
-Create a script named `setup.sh` that:
-
-1. Prompts the user for:
-
-   * `username` (with `-p`)
-   * `email`
-   * `password` (silent input with `-s`)
-2. Assigns default email domain if left empty (e.g., `username@example.com`)
-3. Prints a user summary (except the password)
-
-Example run:
-
-```
-Enter username: korvo
-Enter email [korvo@example.com]: 
-Enter password: ******
-✅ User created: korvo (email: korvo@example.com)
-```
-
----
